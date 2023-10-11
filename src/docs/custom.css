@@ -1,0 +1,62 @@
+.reveal {
+  background-image: url('https://www.novatec-gmbh.de/wp-content/uploads/2023/06/logo_colored.svg');
+  background-position: 25px 25px;
+  background-size: 10%;
+  background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: Roboto,sans-serif !important;
+}
+
+.gradient-text, q, h1, h2, h3, em, strong, .footnote {
+  background: -webkit-linear-gradient(360deg,#1FAF98,#36BCEE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.reveal .progress {
+  /*background: #36BCEE;*/
+  color: #1FAF98;
+  height: 1%;
+}
+
+img {
+  background: unset !important;
+  filter: drop-shadow(16px 16px 20px grey);
+  border: none !important;
+}
+
+a:link {
+  color: white;
+  text-decoration: underline dotted 0.1rem;
+}
+
+a:visited {
+  color: white;
+  text-decoration: underline dotted 0.1rem  ;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none !important;
+}
+
+.placeHigher{
+  margin-top: -5% !important;
+}
+
+.placeHigher2{
+  margin-top: -10% !important;
+}
+
+.reveal a{
+  position: unset;
+}

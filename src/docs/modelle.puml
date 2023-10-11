@@ -1,0 +1,72 @@
+@startuml
+
+class Adresse {
+   hausnummer
+   strasse
+   plz
+   ort
+   land
+}
+class Betreuungsperson {
+   vorname
+   geburtsdatum
+   wohnanschrift
+   art
+   nachname
+   kinder
+}
+enum Betreuungsumfang << enumeration >>
+class Einrichtung {
+   name
+   anschrift
+}
+class Kind {
+   vorname
+   geburtsdatum
+   erziehungsberechtigte
+   wohnanschrift
+   nachname
+}
+class KitaGutschein {
+   gutscheinNummer
+   kommentare
+   freigegebenAm
+   gueltigAb
+   betreuungsumfang
+   gutscheinName
+   kind
+   gueltigBis
+   kitaVertraege
+   betreuungsperson
+}
+class KitaVertrag {
+   einrichtung
+   vertragsname
+   kommentare
+   betreuungsumfang
+   vertragsnummer
+   vertragsbeginn
+   traeger
+   betreuungsperson
+   vertragsende
+}
+class Kommentar {
+   kommentar
+   erstellungszeitpunkt
+}
+
+KitaGutschein    "1" *--> "*" Betreuungsperson
+KitaGutschein    "1" *-d-> "1" Betreuungsumfang
+KitaGutschein    "1" *-> "1" Kind
+KitaGutschein    "1" *--> "*" KitaVertrag
+KitaGutschein    "1" *-> "*" Kommentar
+Betreuungsperson "1" *--> "1" Adresse
+Einrichtung      "1" *-l-> "1" Adresse
+Kind             "1" *-> "1" Adresse
+Kind             "1" *-> "*" Betreuungsperson
+Kind             "*" <-* "1" Betreuungsperson
+KitaVertrag      "1" *-l-> "*" Betreuungsperson
+KitaVertrag      "1" *-u-> "1" Betreuungsumfang
+KitaVertrag      "1" *-l-> "1" Einrichtung
+KitaVertrag      "1" *-l-> "*" Kommentar
+@enduml
