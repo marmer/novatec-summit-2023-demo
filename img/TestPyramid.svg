@@ -1,0 +1,88 @@
+<svg width="1000" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+	<linearGradient id="gradientTransparent" x1="0" y1="0" x2="0" y2="1">
+	  <stop offset="0.1" stop-color="#FF0000" stop-opacity="0.25"/>
+	  <stop offset="0.7" stop-color="#FFFF00" stop-opacity="0.25"/>
+	  <stop offset="1" stop-color="#00FF00" stop-opacity="0.25"/>
+	</linearGradient>
+  </defs>
+  <defs>
+	<linearGradient id="gradientTransparentRotate" x1="0" y1="0" x2="0" y2="1">
+	  <stop offset="0.1" stop-color="#00FF00" stop-opacity="0.25"/>
+	  <stop offset="0.7" stop-color="#FFFF00" stop-opacity="0.25"/>
+	  <stop offset="1" stop-color="#FF0000" stop-opacity="0.25"/>
+	</linearGradient>
+  </defs>
+
+  <defs>
+	<linearGradient id="gradient" x1="0" y1="0" x2="0" y2="1">
+	  <stop offset="0.1" stop-color="#FF0000"/>
+	  <stop offset="0.7" stop-color="#FFFF00"/>
+	  <stop offset="1" stop-color="#00FF00"/>
+	</linearGradient>
+  </defs>
+
+  <defs>
+	<linearGradient id="gradientRotate" x1="0" y1="0" x2="0" y2="1">
+	  <stop offset="0.1" stop-color="#00FF00"/>
+	  <stop offset="0.7" stop-color="#FFFF00"/>
+	  <stop offset="1" stop-color="#FF0000"/>
+	</linearGradient>
+  </defs>
+
+  <g transform="translate(500, 200)">
+	<polygon points="0,-200 250,150 -250,150" stroke="url(#gradient)" fill="url(#gradientTransparent)"/>
+	<text text-anchor="middle" y="-160" fill="white" font-size="2em">*</text>
+	<text text-anchor="middle" y="-100" fill="white" font-size="2em">UI</text>
+	<text text-anchor="middle" y="25" fill="white" font-size="2em">integrational</text>
+	<text text-anchor="middle" y="125" fill="white" font-size="2em">unit</text>
+  </g>
+
+  <g transform="translate(775, 200)">
+	<polygon points="0,150 30,-200 -30,-200" stroke="url(#gradient)" fill="url(#gradientTransparent)"/>
+	<text text-anchor="end" y="10" x="185" transform="rotate(270)" fill="white" font-size="2em">
+	  costs
+	</text>
+  </g>
+
+  <g transform="translate(850, 200)">
+	<polygon points="0,150 30,-200 -30,-200" stroke="url(#gradient)" fill="url(#gradientTransparent)"/>
+	<text text-anchor="end" y="10" x="185" transform="rotate(270)" fill="white" font-size="2em">
+	  fragility
+	</text>
+  </g>
+
+  <g transform="translate(925, 200)">
+	<polygon points="0,150 30,-200 -30,-200" stroke="url(#gradientRotate)" fill="url(#gradientTransparentRotate)"/>
+	<text text-anchor="end" y="10" x="185" transform="rotate(270)" fill="white" font-size="2em">
+	  confidence
+	</text>
+  </g>
+
+  <g transform="translate(200, 200)">
+	<polygon points="0,-200 30,150 -30,150" stroke="url(#gradient)" fill="url(#gradientTransparent)"/>
+	<text text-anchor="start" y="10" x="-125" transform="rotate(270)" fill="white" font-size="2em">
+	  speed
+	</text>
+  </g>
+  <g transform="translate(125, 200)">
+	<polygon points="0,-200 30,150 -30,150" stroke="url(#gradient)" fill="url(#gradientTransparent)"/>
+	<text text-anchor="start" y="10" x="-125" transform="rotate(270)" fill="white" font-size="2em">
+	  reliability
+	</text>
+  </g>
+  <g transform="translate(50, 200)">
+	<polygon points="0,-200 30,150 -30,150" stroke="url(#gradient)" fill="url(#gradientTransparent)"/>
+	<text text-anchor="start" y="10" x="-125" transform="rotate(270)" fill="white" font-size="2em">
+	  point of failure
+	</text>
+  </g>
+
+
+  <g transform="translate(500, 200)">
+	<polygon points="-480,150 -480,200 480,200 480,150" stroke="#0088AA" fill="#0088AA" fill-opacity="0.5"/>
+	<text text-anchor="middle" y="185" fill="white" font-size="2em">
+	  static tests (linting, smells, security...)
+	</text>
+  </g>
+</svg>

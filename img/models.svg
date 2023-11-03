@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="us-ascii" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  contentStyleType="text/css" height="668.7px" preserveAspectRatio="none"
+  style="width:642px;height:668px;background:#FFFFFF00;" version="1.1" viewBox="0 0 642 668"
+  width="642.6px" zoomAndPan="magnify">
+  <defs/>
+  <g><!--class Adresse-->
+    <g id="elem_Adresse">
+      <rect codeLine="2" fill="#F1F1F1" height="126.9949" id="Adresse" rx="2.25" ry="2.25"
+        style="stroke:#181818;stroke-width:0.45;" width="84.6" x="154.8" y="502.65"/>
+      <ellipse cx="172.35" cy="517.05" fill="#ADD1B2" rx="9.9" ry="9.9"
+        style="stroke:#181818;stroke-width:0.9;"/>
+      <path
+        d="M174.8391,513.3375 Q174.9797,513.1406 175.1484,513.0422 Q175.3172,512.9438 175.5141,512.9438 Q175.8516,512.9438 176.0625,513.1828 Q176.2734,513.4078 176.2734,513.9563 L176.2734,515.2641 Q176.2734,515.8125 176.0625,516.0516 Q175.8516,516.2906 175.5141,516.2906 Q175.2047,516.2906 175.0219,516.1078 Q174.8391,515.9391 174.7406,515.475 Q174.6984,515.1516 174.5297,514.9828 Q174.2344,514.6453 173.6859,514.4484 Q173.1375,514.2516 172.575,514.2516 Q171.8859,514.2516 171.3094,514.5469 Q170.7469,514.8422 170.2969,515.5172 Q169.8609,516.1922 169.8609,517.1203 L169.8609,518.1047 Q169.8609,519.2156 170.6625,519.9609 Q171.4641,520.6922 172.8984,520.6922 Q173.7422,520.6922 174.3328,520.4672 Q174.6844,520.3266 175.0641,519.9328 Q175.3031,519.6938 175.4297,519.6234 Q175.5703,519.5531 175.7531,519.5531 Q176.0484,519.5531 176.2734,519.7922 Q176.5125,520.0172 176.5125,520.3266 Q176.5125,520.6359 176.2031,521.0016 Q175.7531,521.5219 175.0359,521.8172 Q174.0656,522.225 172.8984,522.225 Q171.5344,522.225 170.4516,521.6625 Q169.5656,521.2125 168.9469,520.2563 Q168.3281,519.2859 168.3281,518.1328 L168.3281,517.0922 Q168.3281,515.8969 168.8766,514.8703 Q169.4391,513.8297 170.4234,513.2813 Q171.4078,512.7188 172.5188,512.7188 Q173.1797,512.7188 173.7563,512.8734 Q174.3469,513.0141 174.8391,513.3375 Z "
+        fill="#000000"/>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="46.8" x="185.85" y="522.2672">Adresse
+      </text>
+      <line style="stroke:#181818;stroke-width:0.45;" x1="155.7" x2="238.5" y1="531.45"
+        y2="531.45"/>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="73.8" x="160.2" y="548.6467">hausnummer
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="41.4" x="160.2" y="565.4057">strasse
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="15.3" x="160.2" y="582.1646">plz
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="15.3" x="160.2" y="598.9236">ort
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="24.3" x="160.2" y="615.6826">land
+      </text>
+      <line style="stroke:#181818;stroke-width:0.45;" x1="155.7" x2="238.5" y1="622.4449"
+        y2="622.4449"/>
+    </g><!--class Betreuungsperson-->
+    <g id="elem_Betreuungsperson">
+      <rect codeLine="9" fill="#F1F1F1" height="143.7539" id="Betreuungsperson" rx="2.25" ry="2.25"
+        style="stroke:#181818;stroke-width:0.45;" width="134.1" x="175.05" y="270.9"/>
+      <ellipse cx="188.55" cy="285.3" fill="#ADD1B2" rx="9.9" ry="9.9"
+        style="stroke:#181818;stroke-width:0.9;"/>
+      <path
+        d="M191.0391,281.5875 Q191.1797,281.3906 191.3484,281.2922 Q191.5172,281.1938 191.7141,281.1938 Q192.0516,281.1938 192.2625,281.4328 Q192.4734,281.6578 192.4734,282.2063 L192.4734,283.5141 Q192.4734,284.0625 192.2625,284.3016 Q192.0516,284.5406 191.7141,284.5406 Q191.4047,284.5406 191.2219,284.3578 Q191.0391,284.1891 190.9406,283.725 Q190.8984,283.4016 190.7297,283.2328 Q190.4344,282.8953 189.8859,282.6984 Q189.3375,282.5016 188.775,282.5016 Q188.0859,282.5016 187.5094,282.7969 Q186.9469,283.0922 186.4969,283.7672 Q186.0609,284.4422 186.0609,285.3703 L186.0609,286.3547 Q186.0609,287.4656 186.8625,288.2109 Q187.6641,288.9422 189.0984,288.9422 Q189.9422,288.9422 190.5328,288.7172 Q190.8844,288.5766 191.2641,288.1828 Q191.5031,287.9438 191.6297,287.8734 Q191.7703,287.8031 191.9531,287.8031 Q192.2484,287.8031 192.4734,288.0422 Q192.7125,288.2672 192.7125,288.5766 Q192.7125,288.8859 192.4031,289.2516 Q191.9531,289.7719 191.2359,290.0672 Q190.2656,290.475 189.0984,290.475 Q187.7344,290.475 186.6516,289.9125 Q185.7656,289.4625 185.1469,288.5063 Q184.5281,287.5359 184.5281,286.3828 L184.5281,285.3422 Q184.5281,284.1469 185.0766,283.1203 Q185.6391,282.0797 186.6234,281.5313 Q187.6078,280.9688 188.7188,280.9688 Q189.3797,280.9688 189.9563,281.1234 Q190.5469,281.2641 191.0391,281.5875 Z "
+        fill="#000000"/>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="105.3" x="201.15" y="290.5172">Betreuungsperson
+      </text>
+      <line style="stroke:#181818;stroke-width:0.45;" x1="175.95" x2="308.25" y1="299.7"
+        y2="299.7"/>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="49.5" x="180.45" y="316.8967">vorname
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="78.3" x="180.45" y="333.6557">geburtsdatum
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="78.3" x="180.45" y="350.4146">wohnanschrift
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="15.3" x="180.45" y="367.1736">art
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="59.4" x="180.45" y="383.9326">nachname
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="35.1" x="180.45" y="400.6916">kinder
+      </text>
+      <line style="stroke:#181818;stroke-width:0.45;" x1="175.95" x2="308.25" y1="407.4539"
+        y2="407.4539"/>
+    </g><!--class Betreuungsumfang-->
+    <g id="elem_Betreuungsumfang">
+      <rect codeLine="17" fill="#F1F1F1" height="54.5238" id="Betreuungsumfang" rx="2.25" ry="2.25"
+        style="stroke:#181818;stroke-width:0.45;" width="136.8" x="341.1" y="315.45"/>
+      <ellipse cx="354.6" cy="335.5119" fill="#EB937F" rx="9.9" ry="9.9"
+        style="stroke:#181818;stroke-width:0.9;"/>
+      <path
+        d="M353.5734,336.2291 L353.5734,338.4791 L357.4688,338.4791 L357.4688,337.6494 Q357.4688,337.101 357.6797,336.8619 Q357.9047,336.6229 358.2422,336.6229 Q358.5797,336.6229 358.7906,336.8619 Q359.0016,337.101 359.0016,337.6494 L359.0016,340.0119 L351.8016,340.0119 Q351.2391,340.0119 351,339.801 Q350.775,339.59 350.775,339.2385 Q350.775,338.901 351.0141,338.69 Q351.2531,338.4791 351.8016,338.4791 L352.0406,338.4791 L352.0406,332.4885 L351.8016,332.4885 Q351.2391,332.4885 351,332.2775 Q350.775,332.0666 350.775,331.715 Q350.775,331.3775 351,331.1666 Q351.2391,330.9557 351.8016,330.9557 L358.6641,330.9557 L358.6641,333.29 Q358.6641,333.8385 358.4531,334.0775 Q358.2563,334.3025 357.9047,334.3025 Q357.5672,334.3025 357.3563,334.0775 Q357.1453,333.8385 357.1453,333.29 L357.1453,332.4885 L353.5734,332.4885 L353.5734,334.6963 L354.9094,334.6963 Q354.9094,334.1057 355.0219,333.9369 Q355.2609,333.5713 355.6828,333.5713 Q356.0203,333.5713 356.2313,333.8104 Q356.4422,334.0354 356.4422,334.5838 L356.4422,336.3557 Q356.4422,336.8479 356.3297,337.0166 Q356.0906,337.3682 355.6828,337.3682 Q355.2609,337.3682 355.0219,337.0025 Q354.9094,336.8338 354.9094,336.2291 L353.5734,336.2291 Z "
+        fill="#000000"/>
+      <text fill="#000000" font-family="sans-serif" font-size="10.8" font-style="italic"
+        lengthAdjust="spacing" textLength="75.6" x="383.4" y="331.6043">&#171;enumeration&#187;
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="108" x="367.2" y="347.9115">Betreuungsumfang
+      </text>
+      <line style="stroke:#181818;stroke-width:0.45;" x1="342" x2="477" y1="355.5738"
+        y2="355.5738"/>
+      <line style="stroke:#181818;stroke-width:0.45;" x1="342" x2="477" y1="362.7738"
+        y2="362.7738"/>
+    </g><!--class Einrichtung-->
+    <g id="elem_Einrichtung">
+      <rect codeLine="18" fill="#F1F1F1" height="76.718" id="Einrichtung" rx="2.25" ry="2.25"
+        style="stroke:#181818;stroke-width:0.45;" width="92.7" x="271.35" y="527.85"/>
+      <ellipse cx="284.85" cy="542.25" fill="#ADD1B2" rx="9.9" ry="9.9"
+        style="stroke:#181818;stroke-width:0.9;"/>
+      <path
+        d="M287.3391,538.5375 Q287.4797,538.3406 287.6484,538.2422 Q287.8172,538.1438 288.0141,538.1438 Q288.3516,538.1438 288.5625,538.3828 Q288.7734,538.6078 288.7734,539.1563 L288.7734,540.4641 Q288.7734,541.0125 288.5625,541.2516 Q288.3516,541.4906 288.0141,541.4906 Q287.7047,541.4906 287.5219,541.3078 Q287.3391,541.1391 287.2406,540.675 Q287.1984,540.3516 287.0297,540.1828 Q286.7344,539.8453 286.1859,539.6484 Q285.6375,539.4516 285.075,539.4516 Q284.3859,539.4516 283.8094,539.7469 Q283.2469,540.0422 282.7969,540.7172 Q282.3609,541.3922 282.3609,542.3203 L282.3609,543.3047 Q282.3609,544.4156 283.1625,545.1609 Q283.9641,545.8922 285.3984,545.8922 Q286.2422,545.8922 286.8328,545.6672 Q287.1844,545.5266 287.5641,545.1328 Q287.8031,544.8938 287.9297,544.8234 Q288.0703,544.7531 288.2531,544.7531 Q288.5484,544.7531 288.7734,544.9922 Q289.0125,545.2172 289.0125,545.5266 Q289.0125,545.8359 288.7031,546.2016 Q288.2531,546.7219 287.5359,547.0172 Q286.5656,547.425 285.3984,547.425 Q284.0344,547.425 282.9516,546.8625 Q282.0656,546.4125 281.4469,545.4563 Q280.8281,544.4859 280.8281,543.3328 L280.8281,542.2922 Q280.8281,541.0969 281.3766,540.0703 Q281.9391,539.0297 282.9234,538.4813 Q283.9078,537.9188 285.0188,537.9188 Q285.6797,537.9188 286.2563,538.0734 Q286.8469,538.2141 287.3391,538.5375 Z "
+        fill="#000000"/>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="63.9" x="297.45" y="547.4672">Einrichtung
+      </text>
+      <line style="stroke:#181818;stroke-width:0.45;" x1="272.25" x2="363.15" y1="556.65"
+        y2="556.65"/>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="31.5" x="276.75" y="573.8467">name
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="48.6" x="276.75" y="590.6057">anschrift
+      </text>
+      <line style="stroke:#181818;stroke-width:0.45;" x1="272.25" x2="363.15" y1="597.368"
+        y2="597.368"/>
+    </g><!--class Kind-->
+    <g id="elem_Kind">
+      <rect codeLine="22" fill="#F1F1F1" height="126.9949" id="Kind" rx="2.25" ry="2.25"
+        style="stroke:#181818;stroke-width:0.45;" width="136.8" x="6.3" y="279.45"/>
+      <ellipse cx="58.275" cy="293.85" fill="#ADD1B2" rx="9.9" ry="9.9"
+        style="stroke:#181818;stroke-width:0.9;"/>
+      <path
+        d="M60.7641,290.1375 Q60.9047,289.9406 61.0734,289.8422 Q61.2422,289.7438 61.4391,289.7438 Q61.7766,289.7438 61.9875,289.9828 Q62.1984,290.2078 62.1984,290.7563 L62.1984,292.0641 Q62.1984,292.6125 61.9875,292.8516 Q61.7766,293.0906 61.4391,293.0906 Q61.1297,293.0906 60.9469,292.9078 Q60.7641,292.7391 60.6656,292.275 Q60.6234,291.9516 60.4547,291.7828 Q60.1594,291.4453 59.6109,291.2484 Q59.0625,291.0516 58.5,291.0516 Q57.8109,291.0516 57.2344,291.3469 Q56.6719,291.6422 56.2219,292.3172 Q55.7859,292.9922 55.7859,293.9203 L55.7859,294.9047 Q55.7859,296.0156 56.5875,296.7609 Q57.3891,297.4922 58.8234,297.4922 Q59.6672,297.4922 60.2578,297.2672 Q60.6094,297.1266 60.9891,296.7328 Q61.2281,296.4938 61.3547,296.4234 Q61.4953,296.3531 61.6781,296.3531 Q61.9734,296.3531 62.1984,296.5922 Q62.4375,296.8172 62.4375,297.1266 Q62.4375,297.4359 62.1281,297.8016 Q61.6781,298.3219 60.9609,298.6172 Q59.9906,299.025 58.8234,299.025 Q57.4594,299.025 56.3766,298.4625 Q55.4906,298.0125 54.8719,297.0563 Q54.2531,296.0859 54.2531,294.9328 L54.2531,293.8922 Q54.2531,292.6969 54.8016,291.6703 Q55.3641,290.6297 56.3484,290.0813 Q57.3328,289.5188 58.4438,289.5188 Q59.1047,289.5188 59.6813,289.6734 Q60.2719,289.8141 60.7641,290.1375 Z "
+        fill="#000000"/>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="25.2" x="76.725" y="299.0672">Kind
+      </text>
+      <line style="stroke:#181818;stroke-width:0.45;" x1="7.2" x2="142.2" y1="308.25" y2="308.25"/>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="49.5" x="11.7" y="325.4467">vorname
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="78.3" x="11.7" y="342.2057">geburtsdatum
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="126" x="11.7" y="358.9646">erziehungsberechtigte
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="78.3" x="11.7" y="375.7236">wohnanschrift
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="59.4" x="11.7" y="392.4826">nachname
+      </text>
+      <line style="stroke:#181818;stroke-width:0.45;" x1="7.2" x2="142.2" y1="399.2449"
+        y2="399.2449"/>
+    </g><!--class KitaGutschein-->
+    <g id="elem_KitaGutschein">
+      <rect codeLine="29" fill="#F1F1F1" height="210.7898" id="KitaGutschein" rx="2.25" ry="2.25"
+        style="stroke:#181818;stroke-width:0.45;" width="117.9" x="350.55" y="6.3"/>
+      <ellipse cx="368.505" cy="20.7" fill="#ADD1B2" rx="9.9" ry="9.9"
+        style="stroke:#181818;stroke-width:0.9;"/>
+      <path
+        d="M370.9941,16.9875 Q371.1347,16.7906 371.3034,16.6922 Q371.4722,16.5938 371.6691,16.5938 Q372.0066,16.5938 372.2175,16.8328 Q372.4284,17.0578 372.4284,17.6063 L372.4284,18.9141 Q372.4284,19.4625 372.2175,19.7016 Q372.0066,19.9406 371.6691,19.9406 Q371.3597,19.9406 371.1769,19.7578 Q370.9941,19.5891 370.8956,19.125 Q370.8534,18.8016 370.6847,18.6328 Q370.3894,18.2953 369.8409,18.0984 Q369.2925,17.9016 368.73,17.9016 Q368.0409,17.9016 367.4644,18.1969 Q366.9019,18.4922 366.4519,19.1672 Q366.0159,19.8422 366.0159,20.7703 L366.0159,21.7547 Q366.0159,22.8656 366.8175,23.6109 Q367.6191,24.3422 369.0534,24.3422 Q369.8972,24.3422 370.4878,24.1172 Q370.8394,23.9766 371.2191,23.5828 Q371.4581,23.3438 371.5847,23.2734 Q371.7253,23.2031 371.9081,23.2031 Q372.2034,23.2031 372.4284,23.4422 Q372.6675,23.6672 372.6675,23.9766 Q372.6675,24.2859 372.3581,24.6516 Q371.9081,25.1719 371.1909,25.4672 Q370.2206,25.875 369.0534,25.875 Q367.6894,25.875 366.6066,25.3125 Q365.7206,24.8625 365.1019,23.9063 Q364.4831,22.9359 364.4831,21.7828 L364.4831,20.7422 Q364.4831,19.5469 365.0316,18.5203 Q365.5941,17.4797 366.5784,16.9313 Q367.5628,16.3688 368.6738,16.3688 Q369.3347,16.3688 369.9113,16.5234 Q370.5019,16.6641 370.9941,16.9875 Z "
+        fill="#000000"/>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="79.2" x="382.095" y="25.9172">KitaGutschein
+      </text>
+      <line style="stroke:#181818;stroke-width:0.45;" x1="351.45" x2="467.55" y1="35.1" y2="35.1"/>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="101.7" x="355.95" y="52.2967">gutscheinNummer
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="70.2" x="355.95" y="69.0557">kommentare
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="86.4" x="355.95" y="85.8146">freigegebenAm
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="53.1" x="355.95" y="102.5736">gueltigAb
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="107.1" x="355.95" y="119.3326">betreuungsumfang
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="87.3" x="355.95" y="136.0916">gutscheinName
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="23.4" x="355.95" y="152.8506">kind
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="54.9" x="355.95" y="169.6096">gueltigBis
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="76.5" x="355.95" y="186.3686">kitaVertraege
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="104.4" x="355.95" y="203.1275">betreuungsperson
+      </text>
+      <line style="stroke:#181818;stroke-width:0.45;" x1="351.45" x2="467.55" y1="209.8898"
+        y2="209.8898"/>
+    </g><!--class KitaVertrag-->
+    <g id="elem_KitaVertrag">
+      <rect codeLine="41" fill="#F1F1F1" height="194.0309" id="KitaVertrag" rx="2.25" ry="2.25"
+        style="stroke:#181818;stroke-width:0.45;" width="117.9" x="395.55" y="468.9"/>
+      <ellipse cx="420.39" cy="483.3" fill="#ADD1B2" rx="9.9" ry="9.9"
+        style="stroke:#181818;stroke-width:0.9;"/>
+      <path
+        d="M422.8791,479.5875 Q423.0197,479.3906 423.1884,479.2922 Q423.3572,479.1938 423.5541,479.1938 Q423.8916,479.1938 424.1025,479.4328 Q424.3134,479.6578 424.3134,480.2063 L424.3134,481.5141 Q424.3134,482.0625 424.1025,482.3016 Q423.8916,482.5406 423.5541,482.5406 Q423.2447,482.5406 423.0619,482.3578 Q422.8791,482.1891 422.7806,481.725 Q422.7384,481.4016 422.5697,481.2328 Q422.2744,480.8953 421.7259,480.6984 Q421.1775,480.5016 420.615,480.5016 Q419.9259,480.5016 419.3494,480.7969 Q418.7869,481.0922 418.3369,481.7672 Q417.9009,482.4422 417.9009,483.3703 L417.9009,484.3547 Q417.9009,485.4656 418.7025,486.2109 Q419.5041,486.9422 420.9384,486.9422 Q421.7822,486.9422 422.3728,486.7172 Q422.7244,486.5766 423.1041,486.1828 Q423.3431,485.9438 423.4697,485.8734 Q423.6103,485.8031 423.7931,485.8031 Q424.0884,485.8031 424.3134,486.0422 Q424.5525,486.2672 424.5525,486.5766 Q424.5525,486.8859 424.2431,487.2516 Q423.7931,487.7719 423.0759,488.0672 Q422.1056,488.475 420.9384,488.475 Q419.5744,488.475 418.4916,487.9125 Q417.6056,487.4625 416.9869,486.5063 Q416.3681,485.5359 416.3681,484.3828 L416.3681,483.3422 Q416.3681,482.1469 416.9166,481.1203 Q417.4791,480.0797 418.4634,479.5313 Q419.4478,478.9688 420.5588,478.9688 Q421.2197,478.9688 421.7963,479.1234 Q422.3869,479.2641 422.8791,479.5875 Z "
+        fill="#000000"/>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="63.9" x="435.51" y="488.5172">KitaVertrag
+      </text>
+      <line style="stroke:#181818;stroke-width:0.45;" x1="396.45" x2="512.55" y1="497.7"
+        y2="497.7"/>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="63" x="400.95" y="514.8967">einrichtung
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="78.3" x="400.95" y="531.6557">vertragsname
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="70.2" x="400.95" y="548.4146">kommentare
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="107.1" x="400.95" y="565.1736">betreuungsumfang
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="92.7" x="400.95" y="581.9326">vertragsnummer
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="85.5" x="400.95" y="598.6916">vertragsbeginn
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="41.4" x="400.95" y="615.4506">traeger
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="104.4" x="400.95" y="632.2096">betreuungsperson
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="75.6" x="400.95" y="648.9686">vertragsende
+      </text>
+      <line style="stroke:#181818;stroke-width:0.45;" x1="396.45" x2="512.55" y1="655.7309"
+        y2="655.7309"/>
+    </g><!--class Kommentar-->
+    <g id="elem_Kommentar">
+      <rect codeLine="52" fill="#F1F1F1" height="76.718" id="Kommentar" rx="2.25" ry="2.25"
+        style="stroke:#181818;stroke-width:0.45;" width="123.3" x="513.45" y="73.35"/>
+      <ellipse cx="540.315" cy="87.75" fill="#ADD1B2" rx="9.9" ry="9.9"
+        style="stroke:#181818;stroke-width:0.9;"/>
+      <path
+        d="M542.8041,84.0375 Q542.9447,83.8406 543.1134,83.7422 Q543.2822,83.6438 543.4791,83.6438 Q543.8166,83.6438 544.0275,83.8828 Q544.2384,84.1078 544.2384,84.6563 L544.2384,85.9641 Q544.2384,86.5125 544.0275,86.7516 Q543.8166,86.9906 543.4791,86.9906 Q543.1697,86.9906 542.9869,86.8078 Q542.8041,86.6391 542.7056,86.175 Q542.6634,85.8516 542.4947,85.6828 Q542.1994,85.3453 541.6509,85.1484 Q541.1025,84.9516 540.54,84.9516 Q539.8509,84.9516 539.2744,85.2469 Q538.7119,85.5422 538.2619,86.2172 Q537.8259,86.8922 537.8259,87.8203 L537.8259,88.8047 Q537.8259,89.9156 538.6275,90.6609 Q539.4291,91.3922 540.8634,91.3922 Q541.7072,91.3922 542.2978,91.1672 Q542.6494,91.0266 543.0291,90.6328 Q543.2681,90.3938 543.3947,90.3234 Q543.5353,90.2531 543.7181,90.2531 Q544.0134,90.2531 544.2384,90.4922 Q544.4775,90.7172 544.4775,91.0266 Q544.4775,91.3359 544.1681,91.7016 Q543.7181,92.2219 543.0009,92.5172 Q542.0306,92.925 540.8634,92.925 Q539.4994,92.925 538.4166,92.3625 Q537.5306,91.9125 536.9119,90.9563 Q536.2931,89.9859 536.2931,88.8328 L536.2931,87.7922 Q536.2931,86.5969 536.8416,85.5703 Q537.4041,84.5297 538.3884,83.9813 Q539.3728,83.4188 540.4838,83.4188 Q541.1447,83.4188 541.7213,83.5734 Q542.3119,83.7141 542.8041,84.0375 Z "
+        fill="#000000"/>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="64.8" x="555.885" y="92.9672">Kommentar
+      </text>
+      <line style="stroke:#181818;stroke-width:0.45;" x1="514.35" x2="635.85" y1="102.15"
+        y2="102.15"/>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="63" x="518.85" y="119.3467">kommentar
+      </text>
+      <text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing"
+        textLength="112.5" x="518.85" y="136.1057">erstellungszeitpunkt
+      </text>
+      <line style="stroke:#181818;stroke-width:0.45;" x1="514.35" x2="635.85" y1="142.868"
+        y2="142.868"/>
+    </g><!--link KitaGutschein to Betreuungsperson-->
+    <g id="link_KitaGutschein_Betreuungsperson">
+      <path codeLine="57" d="M343.521,202.95 C329.571,222.084 314.928,242.154 301.239,260.919 "
+        fill="none" id="KitaGutschein-Betreuungsperson" style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <polygon fill="#FFFFFF88"
+        points="350.478,193.41,344.3875,195.6519,344.1145,202.1361,350.2049,199.8942,350.478,193.41"
+        style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <polygon fill="#FFFFFF88"
+        points="294.183,270.594,301.8644,266.1706,296.8345,266.9581,296.0469,261.9282,294.183,270.594"
+        style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <line style="stroke:#FFFFFF88;stroke-width:0.9;" x1="296.8345" x2="301.0815" y1="266.9581"
+        y2="261.144"/>
+      <text fill="#FFFFFF88" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing"
+        textLength="6.3" x="336.9894" y="199.3144">1
+      </text>
+      <text fill="#FFFFFF88" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing"
+        textLength="4.5" x="294.1213" y="260.821">*
+      </text>
+    </g><!--link KitaGutschein to Betreuungsumfang-->
+    <g id="link_KitaGutschein_Betreuungsumfang">
+      <path codeLine="58" d="M409.5,229.113 C409.5,256.095 409.5,282.942 409.5,303.687 " fill="none"
+        id="KitaGutschein-Betreuungsumfang" style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <polygon fill="#FFFFFF88"
+        points="409.5,217.179,405.9,222.579,409.5,227.979,413.1,222.579,409.5,217.179"
+        style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <polygon fill="#FFFFFF88"
+        points="409.5,315.45,413.1,307.35,409.5,310.95,405.9,307.35,409.5,315.45"
+        style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <line style="stroke:#FFFFFF88;stroke-width:0.9;" x1="409.5" x2="409.5" y1="310.95" y2="303.75"/>
+      <text fill="#FFFFFF88" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing"
+        textLength="6.3" x="402.9982" y="237.0605">1
+      </text>
+      <text fill="#FFFFFF88" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing"
+        textLength="6.3" x="402.5109" y="305.1672">1
+      </text>
+    </g><!--link KitaGutschein to Kind-->
+    <g id="link_KitaGutschein_Kind">
+      <path codeLine="59"
+        d="M340.11,152.982 C288.954,183.645 218.304,227.727 159.3,270.9 C157.05,272.547 154.773,274.239 152.496,275.967 "
+        fill="none" id="KitaGutschein-Kind" style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <polygon fill="#FFFFFF88"
+        points="350.397,146.844,343.9153,146.5158,341.1194,152.3726,347.6011,152.7009,350.397,146.844"
+        style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <polygon fill="#FFFFFF88"
+        points="143.109,283.203,151.7217,281.1074,146.6725,280.455,147.3249,275.4058,143.109,283.203"
+        style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <line style="stroke:#FFFFFF88;stroke-width:0.9;" x1="146.6725" x2="152.37" y1="280.455"
+        y2="276.0615"/>
+      <text fill="#FFFFFF88" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing"
+        textLength="6.3" x="336.899" y="147.3642">1
+      </text>
+      <text fill="#FFFFFF88" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing"
+        textLength="6.3" x="150.4885" y="273.5919">1
+      </text>
+    </g><!--link KitaGutschein to KitaVertrag-->
+    <g id="link_KitaGutschein_KitaVertrag">
+      <path codeLine="60"
+        d="M473.706,215.595 C482.13,233.451 489.438,252.279 494.1,270.9 C509.328,331.722 501.147,401.184 488.367,457.335 "
+        fill="none" id="KitaGutschein-KitaVertrag" style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <polygon fill="#FFFFFF88"
+        points="468.486,204.912,467.6272,211.3449,473.235,214.6118,474.0938,208.1789,468.486,204.912"
+        style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <polygon fill="#FFFFFF88"
+        points="485.667,468.747,491.0381,461.6956,486.7048,464.3683,484.0322,460.0351,485.667,468.747"
+        style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <line style="stroke:#FFFFFF88;stroke-width:0.9;" x1="486.7048" x2="488.358" y1="464.3683"
+        y2="457.362"/>
+      <text fill="#FFFFFF88" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing"
+        textLength="6.3" x="475.6705" y="212.1463">1
+      </text>
+      <text fill="#FFFFFF88" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing"
+        textLength="4.5" x="483.2002" y="458.7117">*
+      </text>
+    </g><!--link KitaGutschein to Kommentar-->
+    <g id="link_KitaGutschein_Kommentar">
+      <path codeLine="61" d="M480.501,111.6 C487.476,111.6 494.451,111.6 501.426,111.6 " fill="none"
+        id="KitaGutschein-Kommentar" style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <polygon fill="#FFFFFF88"
+        points="468.693,111.6,474.093,115.2,479.493,111.6,474.093,108,468.693,111.6"
+        style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <polygon fill="#FFFFFF88"
+        points="513.162,111.6,505.062,108,508.662,111.6,505.062,115.2,513.162,111.6"
+        style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <line style="stroke:#FFFFFF88;stroke-width:0.9;" x1="508.662" x2="501.462" y1="111.6"
+        y2="111.6"/>
+      <text fill="#FFFFFF88" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing"
+        textLength="6.3" x="475.5118" y="108.0927">1
+      </text>
+      <text fill="#FFFFFF88" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing"
+        textLength="4.5" x="501.6414" y="108.0912">*
+      </text>
+    </g><!--link Betreuungsperson to Adresse-->
+    <g id="link_Betreuungsperson_Adresse">
+      <path codeLine="62" d="M225.225,426.834 C220.932,447.93 216.36,470.457 212.166,491.076 "
+        fill="none" id="Betreuungsperson-Adresse" style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <polygon fill="#FFFFFF88"
+        points="227.61,415.071,223.0021,419.6413,225.4486,425.6525,230.0565,421.0822,227.61,415.071"
+        style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <polygon fill="#FFFFFF88"
+        points="209.817,502.65,214.9559,495.4277,210.7119,498.2399,207.8997,493.9959,209.817,502.65"
+        style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <line style="stroke:#FFFFFF88;stroke-width:0.9;" x1="210.7119" x2="212.148" y1="498.2399"
+        y2="491.1795"/>
+      <text fill="#FFFFFF88" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing"
+        textLength="6.3" x="219.7941" y="434.5779">1
+      </text>
+      <text fill="#FFFFFF88" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing"
+        textLength="6.3" x="204.5036" y="492.6519">1
+      </text>
+    </g><!--link Adresse to Einrichtung-->
+    <g id="link_Adresse_Einrichtung">
+      <path codeLine="63" d="M251.415,566.1 C254.097,566.1 256.788,566.1 259.479,566.1 " fill="none"
+        id="Adresse-Einrichtung" style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <polygon fill="#FFFFFF88"
+        points="239.499,566.1,247.599,569.7,243.999,566.1,247.599,562.5,239.499,566.1"
+        style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <line style="stroke:#FFFFFF88;stroke-width:0.9;" x1="243.999" x2="251.199" y1="566.1"
+        y2="566.1"/>
+      <polygon fill="#FFFFFF88"
+        points="271.269,566.1,265.869,562.5,260.469,566.1,265.869,569.7,271.269,566.1"
+        style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <text fill="#FFFFFF88" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing"
+        textLength="6.3" x="246.4737" y="562.2669">1
+      </text>
+      <text fill="#FFFFFF88" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing"
+        textLength="6.3" x="257.9967" y="562.3528">1
+      </text>
+    </g><!--link Kind to Adresse-->
+    <g id="link_Kind_Adresse">
+      <path codeLine="64" d="M115.047,416.781 C128.385,440.901 143.217,467.739 156.573,491.886 "
+        fill="none" id="Kind-Adresse" style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <polygon fill="#FFFFFF88"
+        points="109.287,406.359,108.7515,412.8269,114.5158,415.8088,115.0514,409.341,109.287,406.359"
+        style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <polygon fill="#FFFFFF88"
+        points="162.387,502.416,161.6191,493.5854,160.21,498.4776,155.3177,497.0685,162.387,502.416"
+        style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <line style="stroke:#FFFFFF88;stroke-width:0.9;" x1="160.21" x2="156.726" y1="498.4776"
+        y2="492.174"/>
+      <text fill="#FFFFFF88" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing"
+        textLength="6.3" x="106.2289" y="426.3262">1
+      </text>
+      <text fill="#FFFFFF88" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing"
+        textLength="6.3" x="152.1824" y="492.3938">1
+      </text>
+    </g><!--link Kind to Betreuungsperson-->
+    <g id="link_Kind_Betreuungsperson">
+      <path codeLine="65" d="M154.971,390.411 C157.68,390.537 160.398,390.51 163.107,390.339 "
+        fill="none" id="Kind-Betreuungsperson" style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <polygon fill="#FFFFFF88"
+        points="143.361,388.953,148.2722,393.1957,154.0774,390.294,149.1662,386.0514,143.361,388.953"
+        style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <polygon fill="#FFFFFF88"
+        points="174.987,388.62,166.4529,386.2242,170.5339,389.2682,167.49,393.3492,174.987,388.62"
+        style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <line style="stroke:#FFFFFF88;stroke-width:0.9;" x1="170.5339" x2="163.4085" y1="389.2682"
+        y2="390.294"/>
+      <text fill="#FFFFFF88" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing"
+        textLength="6.3" x="150.2055" y="389.9467">1
+      </text>
+      <text fill="#FFFFFF88" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing"
+        textLength="4.5" x="163.3339" y="389.8977">*
+      </text>
+    </g><!--link Kind to Betreuungsperson-->
+    <g id="link_Kind_Betreuungsperson">
+      <path codeLine="66" d="M154.971,295.389 C157.68,295.263 160.398,295.29 163.107,295.461 "
+        fill="none" id="Kind-Betreuungsperson-1" style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <polygon fill="#FFFFFF88"
+        points="143.361,296.847,151.8453,299.4134,147.8262,296.2882,150.9513,292.2691,143.361,296.847"
+        style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <line style="stroke:#FFFFFF88;stroke-width:0.9;" x1="147.8262" x2="154.9665" y1="296.2882"
+        y2="295.3935"/>
+      <polygon fill="#FFFFFF88"
+        points="174.987,297.18,170.1618,292.8397,164.2996,295.6244,169.1248,299.9647,174.987,297.18"
+        style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <text fill="#FFFFFF88" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing"
+        textLength="4.5" x="150.3413" y="305.7004">*
+      </text>
+      <text fill="#FFFFFF88" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing"
+        textLength="6.3" x="161.4411" y="289.0279">1
+      </text>
+    </g><!--link Betreuungsperson to KitaVertrag-->
+    <g id="link_Betreuungsperson_KitaVertrag">
+      <path codeLine="67"
+        d="M318.222,408.654 C338.895,427.401 360.801,448.362 379.8,468.9 C382.419,471.735 385.047,474.651 387.666,477.63 "
+        fill="none" id="Betreuungsperson-KitaVertrag" style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <polygon fill="#FFFFFF88"
+        points="309.447,400.761,313.0614,408.8546,312.7926,403.7705,317.8766,403.5017,309.447,400.761"
+        style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <line style="stroke:#FFFFFF88;stroke-width:0.9;" x1="312.7926" x2="318.1455" y1="403.7705"
+        y2="408.5865"/>
+      <polygon fill="#FFFFFF88"
+        points="395.487,486.72,394.6976,480.2782,388.4477,478.5293,389.2371,484.9711,395.487,486.72"
+        style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <text fill="#FFFFFF88" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing"
+        textLength="4.5" x="316.298" y="403.0541">*
+      </text>
+      <text fill="#FFFFFF88" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing"
+        textLength="6.3" x="381.9994" y="474.0191">1
+      </text>
+    </g><!--link Betreuungsumfang to KitaVertrag-->
+    <g id="link_Betreuungsumfang_KitaVertrag">
+      <path codeLine="68" d="M417.321,382.275 C421.587,403.272 427.104,430.434 432.585,457.362 "
+        fill="none" id="Betreuungsumfang-KitaVertrag" style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <polygon fill="#FFFFFF88"
+        points="414.927,370.503,413.0097,379.1571,415.8219,374.9131,420.0659,377.7253,414.927,370.503"
+        style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <line style="stroke:#FFFFFF88;stroke-width:0.9;" x1="415.8219" x2="417.258" y1="374.9131"
+        y2="381.9735"/>
+      <polygon fill="#FFFFFF88"
+        points="434.925,468.873,437.3728,462.8623,432.7659,458.291,430.3181,464.3017,434.925,468.873"
+        style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <text fill="#FFFFFF88" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing"
+        textLength="6.3" x="409.0611" y="389.9094">1
+      </text>
+      <text fill="#FFFFFF88" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing"
+        textLength="6.3" x="427.0271" y="458.8465">1
+      </text>
+    </g><!--link Einrichtung to KitaVertrag-->
+    <g id="link_Einrichtung_KitaVertrag">
+      <path codeLine="69" d="M376.074,566.1 C378.468,566.1 380.862,566.1 383.256,566.1 " fill="none"
+        id="Einrichtung-KitaVertrag" style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <polygon fill="#FFFFFF88"
+        points="364.194,566.1,372.294,569.7,368.694,566.1,372.294,562.5,364.194,566.1"
+        style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <line style="stroke:#FFFFFF88;stroke-width:0.9;" x1="368.694" x2="375.894" y1="566.1"
+        y2="566.1"/>
+      <polygon fill="#FFFFFF88"
+        points="395.235,566.1,389.835,562.5,384.435,566.1,389.835,569.7,395.235,566.1"
+        style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <text fill="#FFFFFF88" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing"
+        textLength="6.3" x="371.1752" y="562.3528">1
+      </text>
+      <text fill="#FFFFFF88" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing"
+        textLength="6.3" x="382.1084" y="562.6233">1
+      </text>
+    </g><!--link Kommentar to KitaVertrag-->
+    <g id="link_Kommentar_KitaVertrag">
+      <path codeLine="70"
+        d="M569.988,161.811 C562.869,222.39 547.74,327.825 521.1,414.9 C516.816,428.895 511.578,443.322 505.935,457.434 "
+        fill="none" id="Kommentar-KitaVertrag" style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <polygon fill="#FFFFFF88"
+        points="571.347,149.949,566.8448,157.5845,570.8327,154.4195,573.9977,158.4074,571.347,149.949"
+        style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <line style="stroke:#FFFFFF88;stroke-width:0.9;" x1="570.8327" x2="570.015" y1="154.4195"
+        y2="161.577"/>
+      <polygon fill="#FFFFFF88"
+        points="501.336,468.675,506.7146,465.0431,505.4308,458.6814,500.0522,462.3133,501.336,468.675"
+        style="stroke:#FFFFFF88;stroke-width:0.9;"/>
+      <text fill="#FFFFFF88" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing"
+        textLength="4.5" x="565.8903" y="169.9091">*
+      </text>
+      <text fill="#FFFFFF88" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing"
+        textLength="6.3" x="498.1077" y="458.6346">1
+      </text>
+    </g><!--SRC=[ZLCzRuCm4Dtv5HOZKeRiKQH4gZfKwjZTm0Mim16TxLPAbV_UCmPZ24dgnL_ltZs_EnUDr5eSIWAjGVmcGeXQMessRO7SJXjY1BZbfRcwgIFZfaPYcToIeYSuWY6m5Yjz0T8TUgRlZb2sVMm5kIMZIsbiw_O_NOqITL6JElLqqhEYBEenvgomP16t15XEbCAs9ucLsEs4km2IHd76_NxGygQGL54RXdeP8z-KRvJzmHbUIWMwAgXTuXm8c5XL1bRV4CHF_4Q-MyCGK8CdrRZz31QVErwXaTIpdWXK1Im2yD3w26Wuvo5tctpXmfmoCYwAF2hjJuty0k9wClkSonTj9jiZ1mTXihGtoz_fKAZP0zOaXeZmwF4aXqeXkXClZ5QLHG70JJ4f7JDxdK68hvisq3IEvGhAN2oUNUMJUL5ufDjKP9lDNgHPUjV9Z-2bms_JkxPyXFTert0l14JcF-5omF3Okzyt4V9Y-Dn9_2_4HDOiOFsVY4Ui_pLetS8bcb6xJROmC39yxBwbpkp_UFkiG8_uUHNPz4fAgC0V]-->
+  </g>
+</svg>

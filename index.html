@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>Test Data - A journey for lazy developers and robust slim tests</title>
+  <link rel="icon" type="image/x-icon" href="./img/T.png">
+
+  <link rel="stylesheet" href="dist/reset.css">
+  <link rel="stylesheet" href="dist/reveal.css">
+  <link rel="stylesheet" href="dist/theme/black.css">
+
+  <!-- Theme used for syntax highlighted code -->
+  <link rel="stylesheet" href="plugin/highlight/monokai.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+<div class="reveal">
+  <div class="slides">
+    <section>
+      <section data-markdown
+               data-background-image="./img/testdataNet.png"
+               data-background-opacity="0.1">
+        <script type="text/template">
+          # Test Data
+
+          A journey for lazy developers and robust slim tests
+
+          <small><small><em>by MarMer</em></small></small>
+          <p><small><small><em>backgrounds by ChatGPT with DALL-E</em></small></small></p>
+
+          Notes:
+          * Who thinks good software developers are Laizy?
+          * Who thinks lazy software developers are good?
+          * Who is lazy? 😁
+        </script>
+      </section>
+      <section data-markdown
+               data-background-image="./img/me.png"
+               data-background-opacity="0.1">
+        <script type="text/template">
+          # Mariano Mertinat
+
+          Notes:
+          Who am I?
+          * a dad of two
+          * husband
+          * love cooking, baking, reading, gaming ... someday climbing again
+            * not getting paid
+          * also love to code, learn and teach
+            * ... and I'm getting paid for it
+            * ... for almost 13 Years
+            * Yeah! 🤟
+        </script>
+      </section>
+      <section data-markdown
+               data-background-image="https://th.bing.com/th/id/OIG.vbE5TmNBighFf4uKLvNK?pid=ImgGn"
+               data-background-opacity="0.1">
+        <script type="text/template">
+          ## Agenda
+
+          * Why Tests?
+          * Testdata
+          * Evolution
+          * Libraries
+
+          Notes:
+          * Why Tests at all?
+          * Testdata and its kinds
+          * Evolution
+            * ways and Options to create and maintain
+              * Advantages
+              * Disadvantages
+          * probably some Libraries for Java, Kotlin, TS and JS
+        </script>
+      </section>
+    </section>
+
+    <section data-background-image="./img/moneyHourglass.png"
+             data-background-opacity="0.1">
+      <section data-markdown>
+        <script type="text/template">
+          ## Why Tests?
+
+          <img src="https://images.squarespace-cdn.com/content/v1/518f5d62e4b075248d6a3f90/1571602440714-B1XDU7TSFOGQDOE9VL56/coverage.png?format=2500w" alt="Geek and poke - QA best Practices" height="700vw"/>
+
+          Notes:
+          * sounds familiar?
+        </script>
+      </section>
+      <section data-markdown>
+        <script type="text/template">
+          ## Reliable Speed
+
+          <img src="https://miro.medium.com/v2/resize:fit:1180/format:webp/0*68qV453wwzx-6e_9.jpg" height="500vh"/>
+
+          <small><small>[image from: https://medium.com/@tomas.svojanovsky11/svelte-setting-up-for-testing-59a43bd94eff](https://medium.com/@tomas.svojanovsky11/svelte-setting-up-for-testing-59a43bd94eff)</small></small>
+
+          Notes:
+          * developer speed depends on the quality of tests
+          * Good tests = constant progress
+          * bad or no tests
+            * fast at the beginning
+            * Rapidly decreasing speed
+        </script>
+      </section>
+      <section data-markdown>
+        <script type="text/template">
+          ## Costs of bugs
+
+          <img src="https://ambysoft.com/wp-content/uploads/2023/03/comparingTechniques.jpg" height="500vh"/>
+
+          <small><small>[image from: https://www.ambysoft.com/essays/whyAgileWorksFeedback.html](https://www.ambysoft.com/essays/whyAgileWorksFeedback.html)</small></small>
+
+          Notes:
+          * Costs of Bugs increase by feedback
+          * so-called rule of ten
+        </script>
+      </section>
+      <section data-markdown data-auto-animate>
+        <script type="text/template">
+          ## Conclusion
+
+          Do we want tests?*
+
+          <small><small>*most of the time</small></small>
+
+          Notes:
+          Conclusion: Do we want tests?*
+
+          ... or to be more precisely
+        </script>
+      </section>
+      <section data-markdown data-auto-animate>
+        <script type="text/template">
+          ## Conclusion
+
+          We want *good* tests!*
+
+          <small><small>*most of the time</small></small>
+
+          Notes:
+          Conclusion: We want *good* tests
+
+          ... most of the time
+
+          But what does good mean?
+        </script>
+      </section>
+      <section data-markdown>
+        <script type="text/template">
+          ## Good Tests
+
+            <div>
+              <ul>
+                <li class="fragment strike semi-fade-out shrink">run <em>reliably</em> and <em>fast</em></li>
+                <li class="fragment semi-fade-out">give <em>expressive</em> feedback</li>
+                <li class="fragment grow"><em>communicate</em> intention clearly</li>
+                <li class="fragment grow">easy to <em>maintain</em> and <em>understand</em></li>
+              </ul>
+            </div>
+
+          Notes:
+
+        </script>
+      </section>
+    </section>
+
+    <section data-background-image="./img/scope.png"
+             data-background-opacity="0.1">
+      <section data-markdown>
+        <script type="text/template">
+          ## Test Data
+
+          <img src="https://images.squarespace-cdn.com/content/v1/518f5d62e4b075248d6a3f90/1375007884089-OD2T9RAMF0FXDH6J7SZ7/tdd.jpg?format=2500w" alt="geek and poke TDD" height="600vh"/>
+
+          Notes:
+          * sounds familiar
+        </script>
+      </section>
+      <section data-markdown                 >
+        <script type="text/template">
+          ## Scope
+
+          <img src="./img/TestPyramid.svg" alt="test pyramid" />
+
+          Notes:
+          * There are to many names for test kinds.
+            * System, end to end, module, component, unit, performance, usability, pen test, ...
+            * all differently interpreted
+            *... even the simplest case: What is a unit in Unittest?
+          * Important is only for this talk
+            * You need test data!
+        </script>
+      </section>
+      <section data-markdown>
+        <script type="text/template">
+          ## Kinds of data
+
+
+          <p class="fragment fade-in">Static <em>vs.</em> Dynamic</p>
+          <p class="fragment fade-in">Functional <em>vs.</em> Technical</p>
+          <p class="fragment fade-in">Prod <em>vs.</em> pseudonomized <em>vs.</em> Prod-Alike</p>
+          <p class="fragment fade-in">... <em>vs.</em> ... <em>vs.</em> ...</p>
+
+          Notes:
+          * Static vs. dynamic
+            * Static = Fixed always the same data set
+              * Suitable for higher level tests
+              * Traceability
+            * Dynamic
+              * Lower test levels
+              * Flexibility
+          * Professional correctness vs. technical correctness
+            * Professional
+              * Acceptance testing
+            * Technical
+              * Technical edge cases
+          * Prod
+            * Perfect for error reproduction
+            * But:
+              * Large
+              * Available late (system needs to exist)
+              * Data protection problems
+                * if necessary also with pseudonymized data if free texts allowed
+              * Production Like complex in maintenance
+          * Other e.g.
+            * snapshot tests
+            * backend vs. frontend vs. api
+            * u.v.m should not care here in detail.
+        </script>
+      </section>
+    </section>
+
+
+    <section data-background-image="./img/evolution10.png"
+             data-background-opacity="0.1">
+      <section data-markdown>
+        <script type="text/template">
+          # Evolution
+
+          <p class="fragment fade-in">In the beginning was the <em>model</em>...</p>
+
+          Notes:
+          * Lets talk about some evolution.
+            * Afterwards you should have seen some different strategies fitting for different
+              * Languages
+              * Environments
+          * **Click**
+          * in the beginning was the model
+        </script>
+      </section>
+      <section data-markdown>
+        <script type="text/template">
+          ## Model
+
+          <img src="./img/models.svg" alt="Models" height="575vw"/>
+
+          Notes:
+          * Lets talk about some evolution.
+          * **Click**
+          * in the beginning was the model
+        </script>
+      </section>
+    </section>
+
+  </div>
+</div>
+
+<script src="dist/reveal.js"></script>
+<script src="plugin/notes/notes.js"></script>
+<script src="plugin/markdown/markdown.js"></script>
+<script src="plugin/highlight/highlight.js"></script>
+<script src="plugin/search/search.js"></script>
+<script src="plugin/zoom/zoom.js"></script>
+<script>
+  // More info about initialization & config:
+  // - https://revealjs.com/initialization/
+  // - https://revealjs.com/config/
+  Reveal.initialize({
+    markdown: {
+      smartypants: true
+    },
+    hash: true,
+    slideNumber: "c/t",
+    // defaultTiming: 120,
+    totalTime: 1800,
+    history: true,
+    mouseWheel: false,
+    transition: 'slide',
+    navigationMode: "default",
+    plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealSearch, RevealZoom],
+    dependencies: [
+      {src: "plugin/countdown/countdown.js"},
+      {src: "//cdn.jsdelivr.net/npm/reveal-plantuml"},
+    ]
+  });
+</script>
+</body>
+</html>

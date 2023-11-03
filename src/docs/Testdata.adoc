@@ -127,6 +127,7 @@ Am Anfang war das Model ...
 [.placeHigher2.fade-in%step]
 image::modelle.svg[Modelle,600vw]
 
+
 // [NOTE.speaker]
 [.notes]
 ****
