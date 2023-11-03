@@ -1,6 +1,9 @@
 package io.marmer.github.demo.novatecsummit2023demo.application;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
 
 import io.marmer.github.demo.novatecsummit2023demo.domain.Betreuungsperson;
 import io.marmer.github.demo.novatecsummit2023demo.domain.Betreuungsumfang;
@@ -14,6 +17,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
+import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 @ExtendWith(MockitoExtension.class)
@@ -24,11 +28,9 @@ class CommonGutscheinTypeServiceImplManagerHelperUtilObjectImplTest {
 
   private LocalDate now = LocalDate.now();
 
+  @SneakyThrows //  tag::perMethod[]
   @Test
-  @DisplayName("SollteKitagutscheinFreigeben")
-  @SneakyThrows
-//  tag::perMethod[]
-  void gebeVertragKitaGutscheinFrei_SollteKitagutscheinFreigeben() {
+  void perMethodExample() {
     // Arrange
     var gutschein = new KitaGutschein()
         .setGutscheinNummer("123")
@@ -36,8 +38,8 @@ class CommonGutscheinTypeServiceImplManagerHelperUtilObjectImplTest {
         .setFreigegebenAm(null)
         .setBetreuungsumfang(Betreuungsumfang.GANZTAGS)
             .setBetreuungsperson(List.of(new Betreuungsperson()
-                .setNachname("Power")
                 .setVorname("Low")
+                .setNachname("Power")
                 // ...
             ))
         //...
@@ -55,8 +57,20 @@ class CommonGutscheinTypeServiceImplManagerHelperUtilObjectImplTest {
   }
 //  end::perMethod[]
 
+  @SneakyThrows //  tag::mocked[]
+  @Test
+  void mockExampleSimple() {
+    // Arrange
+    var gutschein = mock(KitaGutschein.class);
+    when(gutschein.getFreigegebenAm()).thenReturn(null);
+    when(gutschein.getBetreuungsumfang()).thenReturn(Betreuungsumfang.GANZTAGS);
 
-//  tag::mockedTestdata[]
-  //todo hier nen Beispiel mit gemockten Daten
-//  end::mockedTestdata[]
+    // Act
+    var result = underTest.gebeVertragKitaGutscheinFrei(gutschein);
+
+    // Assertion
+    verify(gutschein).setFreigegebenAm(now);
+  }
+//  end::mocked[]
+
 }

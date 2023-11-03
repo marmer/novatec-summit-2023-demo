@@ -28,8 +28,9 @@
 
           A journey for lazy developers and robust slim tests
 
-          <small><small><em>by MarMer</em></small></small>
-          <p><small><small><em>backgrounds by ChatGPT with DALL-E</em></small></small></p>
+          ***by MarMer*** <!-- .element: class="small" -->
+
+          backgrounds by ChatGPT <!-- .element: class="footnote" -->
 
           Notes:
           * Who thinks good software developers are Laizy?
@@ -84,7 +85,7 @@
         <script type="text/template">
           ## Why Tests?
 
-          <img src="https://images.squarespace-cdn.com/content/v1/518f5d62e4b075248d6a3f90/1571602440714-B1XDU7TSFOGQDOE9VL56/coverage.png?format=2500w" alt="Geek and poke - QA best Practices" height="700vw"/>
+          <img src="https://images.squarespace-cdn.com/content/v1/518f5d62e4b075248d6a3f90/1571602440714-B1XDU7TSFOGQDOE9VL56/coverage.png?format=2500w" alt="Geek and poke - QA best Practices" class="r-stretch"/>
 
           Notes:
           * sounds familiar?
@@ -94,7 +95,7 @@
         <script type="text/template">
           ## Reliable Speed
 
-          <img src="https://miro.medium.com/v2/resize:fit:1180/format:webp/0*68qV453wwzx-6e_9.jpg" height="500vh"/>
+          <img src="https://miro.medium.com/v2/resize:fit:1180/format:webp/0*68qV453wwzx-6e_9.jpg" class="r-stretch"/>
 
           <small><small>[image from: https://medium.com/@tomas.svojanovsky11/svelte-setting-up-for-testing-59a43bd94eff](https://medium.com/@tomas.svojanovsky11/svelte-setting-up-for-testing-59a43bd94eff)</small></small>
 
@@ -110,7 +111,7 @@
         <script type="text/template">
           ## Costs of bugs
 
-          <img src="https://ambysoft.com/wp-content/uploads/2023/03/comparingTechniques.jpg" height="500vh"/>
+          <img src="https://ambysoft.com/wp-content/uploads/2023/03/comparingTechniques.jpg" class="r-stretch"/>
 
           <small><small>[image from: https://www.ambysoft.com/essays/whyAgileWorksFeedback.html](https://www.ambysoft.com/essays/whyAgileWorksFeedback.html)</small></small>
 
@@ -174,7 +175,7 @@
         <script type="text/template">
           ## Test Data
 
-          <img src="https://images.squarespace-cdn.com/content/v1/518f5d62e4b075248d6a3f90/1375007884089-OD2T9RAMF0FXDH6J7SZ7/tdd.jpg?format=2500w" alt="geek and poke TDD" height="600vh"/>
+          <img src="https://images.squarespace-cdn.com/content/v1/518f5d62e4b075248d6a3f90/1375007884089-OD2T9RAMF0FXDH6J7SZ7/tdd.jpg?format=2500w" alt="geek and poke TDD" class="r-stretch"/>
 
           Notes:
           * sounds familiar
@@ -184,7 +185,7 @@
         <script type="text/template">
           ## Scope
 
-          <img src="./img/TestPyramid.svg" alt="test pyramid" />
+          <img src="./img/TestPyramid.svg" alt="test pyramid" class="r-stretch"/>
 
           Notes:
           * There are to many names for test kinds.
@@ -256,12 +257,110 @@
         <script type="text/template">
           ## Model
 
-          <img src="./img/models.svg" alt="Models" height="575vw"/>
+          <img src="./img/models.svg" alt="Models" class="r-stretch"/>
 
           Notes:
-          * Lets talk about some evolution.
-          * **Click**
-          * in the beginning was the model
+          * Model is...
+            * **simple**
+            * **data-centric** from a table module design
+            * has **one** circle reference
+            * it is based on a **real-world** example
+              * in reality way more complex
+        </script>
+      </section>
+      <section data-markdown>
+        <script type="text/template">
+          ### Per Test Method
+
+            <pre><code data-line-numbers="|3,21,24|3-19|7,8,22,25|6,15|"
+                       data-trim data-noescape
+                       data-url="./src/test/java/io/marmer/github/demo/novatecsummit2023demo/application/CommonGutscheinTypeServiceImplManagerHelperUtilObjectImplTest.java"
+                       data-line-start-delimiter="tag::perMethod[]"
+                       data-line-end-delimiter="end::perMethod[]"
+                       data-no-beautify="true"
+                       class="java"></code></pre>
+
+          Notes:
+          * well-structured test method
+          * Act Arrange Assert
+          * Test Data Initialization
+            * lots of properties
+            * No overview what's relevant for test scope
+            * but relevant for other concerns (e.g. business or database constraints)
+          * relevant probably only two of them
+          * potential errors:
+            * in single test
+              * Fields multiple time set **have you seen them**?
+              * copy paste
+            * in project
+              * copy paste
+              * model changes
+            * What about model changes?
+        </script>
+      </section>
+      <section data-markdown>
+        <script type="text/template">
+          ### lets mock
+
+            <pre><code data-line-numbers="|4-6|12"
+                       data-trim data-noescape
+                       data-url="./src/test/java/io/marmer/github/demo/novatecsummit2023demo/application/CommonGutscheinTypeServiceImplManagerHelperUtilObjectImplTest.java"
+                       data-line-start-delimiter="tag::mocked[]"
+                       data-line-end-delimiter="end::mocked[]"
+                       data-no-beautify="true"
+                       class="java"></code></pre>
+
+          Notes:
+          * looks way more compact, doesn't it?
+          * Now...
+            * we only see relevant details
+            * have less impact on model changes in tests
+            * works for plain logic
+          * But...
+            * distracting technical noise
+            * depend on the mocking library
+            * Not able to persist
+            * even worse
+              * we don't test the "contract"
+                * **See the assertion**
+        </script>
+      </section>
+      <section data-markdown>
+        <script type="text/template">
+          ### per file
+
+          <div class="container">
+            <pre class="col"><code data-line-numbers="|4-6|12"
+                       data-trim data-noescape
+                       data-url="./src/test/java/io/marmer/github/demo/novatecsummit2023demo/application/CommonGutscheinTypeServiceImplManagerHelperUtilObjectImplTest.java"
+                       data-line-start-delimiter="tag::mocked[]"
+                       data-line-end-delimiter="end::mocked[]"
+                       data-no-beautify="true"
+                       class="java"></code>
+            </pre>
+            <pre class="col"><code data-line-numbers="|4-6|12"
+             data-trim data-noescape
+             data-url="./src/test/java/io/marmer/github/demo/novatecsummit2023demo/application/CommonGutscheinTypeServiceImplManagerHelperUtilObjectImplTest.java"
+             data-line-start-delimiter="tag::mocked[]"
+             data-line-end-delimiter="end::mocked[]"
+             data-no-beautify="true"
+             class="java"></code>
+            </pre>
+          </div>
+
+          Notes:
+          * looks way more compact, doesn't it?
+          * Now...
+            * we only see relevant details
+            * have less impact on model changes in tests
+            * works for plain logic
+          * But...
+            * distracting technical noise
+            * depend on the mocking library
+            * Not able to persist
+            * even worse
+              * we don't test the "contract"
+                * **See the assertion**
         </script>
       </section>
     </section>
@@ -270,6 +369,7 @@
 </div>
 
 <script src="dist/reveal.js"></script>
+<script src="plugin/embed-code/embed-code.js"></script>
 <script src="plugin/notes/notes.js"></script>
 <script src="plugin/markdown/markdown.js"></script>
 <script src="plugin/highlight/highlight.js"></script>
@@ -288,13 +388,16 @@
     // defaultTiming: 120,
     totalTime: 1800,
     history: true,
-    mouseWheel: false,
+    mouseWheel: true,
+    view: 'scroll',
+    scrollProgress: true,
     transition: 'slide',
     navigationMode: "default",
-    plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealSearch, RevealZoom],
+    plugins: [RevealMarkdown, EmbedCode, RevealHighlight, RevealNotes, RevealSearch, RevealZoom],
     dependencies: [
       {src: "plugin/countdown/countdown.js"},
       {src: "//cdn.jsdelivr.net/npm/reveal-plantuml"},
+      { src: 'plugin/sampler/sampler.js' }
     ]
   });
 </script>

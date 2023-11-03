@@ -1,63 +1,101 @@
 .reveal {
-    background-image: url('https://www.novatec-gmbh.de/wp-content/uploads/2023/06/logo_colored.svg');
-    background-position: 25px 25px;
-    background-size: 10%;
-    background-repeat: no-repeat;
+  background-image: url('https://www.novatec-gmbh.de/wp-content/uploads/2023/06/logo_colored.svg');
+  background-position: 25px 25px;
+  background-size: 10%;
+  background-repeat: no-repeat;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: Roboto,sans-serif !important;
+  font-family: Roboto, sans-serif !important;
 }
 
 .gradient-text, q, h1, h2, h3, em, strong, .footnote {
-    background: -webkit-linear-gradient(360deg,#1FAF98,#36BCEE);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(360deg, #1FAF98, #36BCEE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footnote {
+  font-size: 40%;
+  font-style: italic;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.footnote:nth-last-of-type(2){
+  position: fixed;
+  bottom: 3em;
+}
+
+.footnote:nth-last-of-type(1){
+  position: fixed;
+  bottom: 1em;
+}
+
+.small {
+  font-size: 50%;
 }
 
 .reveal .progress {
-    background: -webkit-linear-gradient(360deg,#1FAF98,#36BCEE);
-    background: #36BCEE;
-    color: #1FAF98;
-    height: 1%;
+  /*background: -webkit-linear-gradient(360deg, #1FAF98, #36BCEE);*/
+  background: #36BCEE;
+  color: #1FAF98;
+  height: 1%;
 }
 
 img {
-    background: unset !important;
-    filter: drop-shadow(16px 16px 20px grey);
-    border: none !important;
+  background: unset !important;
+  filter: drop-shadow(16px 16px 20px grey);
+  border: none !important;
 }
 
 a:link {
-    color: white;
-    text-decoration: underline dotted 0.1rem;
+  color: white;
+  text-decoration: underline dotted 0.1rem;
 }
 
 a:visited {
-    color: white;
-    text-decoration: underline dotted 0.1rem  ;
+  color: white;
+  text-decoration: underline dotted 0.1rem;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 a:active {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 ul {
-    list-style-type: none !important;
+  list-style-type: none !important;
 }
 
-.placeHigher{
-    margin-top: -5% !important;
+.placeHigher {
+  margin-top: -5% !important;
 }
 
-.placeHigher2{
-    margin-top: -10% !important;
+.placeHigher2 {
+  margin-top: -10% !important;
 }
 
-.reveal a{
-    position: unset;
+.reveal a {
+  position: unset;
+}
+
+code {
+  font-size: 70%;
+  line-height: 100%;
+  height: 100%;
+  /*width: 100%;*/
+}
+
+.container{
+  display: flex;
+  width: 100vw;
+}
+.col{
+  flex: 1;
+  width: 50%;
 }
