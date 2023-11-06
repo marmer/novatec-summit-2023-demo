@@ -10,25 +10,23 @@ import io.marmer.github.demo.novatecsummit2023demo.domain.Betreuungsumfang;
 import io.marmer.github.demo.novatecsummit2023demo.domain.Kind;
 import io.marmer.github.demo.novatecsummit2023demo.domain.KitaGutschein;
 import java.time.LocalDate;
-import java.util.Collections;
 import java.util.List;
 import lombok.SneakyThrows;
-import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
-import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 @ExtendWith(MockitoExtension.class)
-class CommonGutscheinTypeServiceImplManagerHelperUtilObjectImplTest {
+class _1PerMethodTest {
 
   @InjectMocks
   private CommonGutscheinTypeServiceImplManagerHelperUtilObjectImpl underTest;
 
   private LocalDate now = LocalDate.now();
 
-  @SneakyThrows //  tag::perMethod[]
+  @SneakyThrows
+  //  tag::perMethod[]
   @Test
   void perMethodExample() {
     // Arrange
@@ -37,17 +35,17 @@ class CommonGutscheinTypeServiceImplManagerHelperUtilObjectImplTest {
         .setGutscheinName("Maxchen")
         .setFreigegebenAm(null)
         .setBetreuungsumfang(Betreuungsumfang.GANZTAGS)
-            .setBetreuungsperson(List.of(new Betreuungsperson()
+        .setBetreuungsperson(List.of(new Betreuungsperson()
                 .setVorname("Low")
                 .setNachname("Power")
-                // ...
-            ))
+            // ...
+        ))
         //...
         .setGutscheinName("Würstchen")
         .setKind(new Kind()
             .setVorname("Max")
             .setNachname("Power"));
-        //... many more
+    //... many more
 
     // Act
     var result = underTest.gebeVertragKitaGutscheinFrei(gutschein);
@@ -55,9 +53,10 @@ class CommonGutscheinTypeServiceImplManagerHelperUtilObjectImplTest {
     // Assertion
     assertEquals(result.getFreigegebenAm(), now, "freigegebenAm");
   }
-//  end::perMethod[]
+  //  end::perMethod[]
 
-  @SneakyThrows //  tag::mocked[]
+  @SneakyThrows
+  //  tag::mocked[]
   @Test
   void mockExampleSimple() {
     // Arrange
@@ -71,6 +70,6 @@ class CommonGutscheinTypeServiceImplManagerHelperUtilObjectImplTest {
     // Assertion
     verify(gutschein).setFreigegebenAm(now);
   }
-//  end::mocked[]
+  //  end::mocked[]
 
 }

@@ -23,12 +23,12 @@ h1, h2, h3, h4, h5 {
   width: 100%;
 }
 
-.footnote:nth-last-of-type(2){
+.footnote:nth-last-of-type(2) {
   position: fixed;
   bottom: 3em;
 }
 
-.footnote:nth-last-of-type(1){
+.footnote:nth-last-of-type(1) {
   position: fixed;
   bottom: 1em;
 }
@@ -91,11 +91,11 @@ code {
   /*width: 100%;*/
 }
 
-.container{
-  display: flex;
-  width: 100vw;
+.container {
+  display: flex; justify-content: center; position: relative;
 }
-.col{
-  flex: 1;
-  width: 50%;
+
+.container > *{
+  padding: 5px;
+
 }

@@ -175,10 +175,11 @@ include::{srcdir}/test/java/io/marmer/github/demo/novatecsummit2023demo/applicat
 === pro Testklasse
 === pro Modul oder Repository
 === Blueprint
-=== Builder Pattern
-=== Real Random Manual
-=== Seeded Random Manual
-=== Seeded Random Library
+=== Real Random Value Manual
+=== Seeded Random Value Manual
+=== Seeded Random Structures Manual
+=== Seeded Random Structures With Semantics
+=== Bonus Builder Pattern
 === on DDD Aggregates or Domain Entities
 * Either Iterate through the processes
 

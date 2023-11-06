@@ -214,8 +214,8 @@
             * Dynamic
               * Lower test levels
               * Flexibility
-          * Professional correctness vs. technical correctness
-            * Professional
+          * Functional correctness vs. technical correctness
+            * Functional
               * Acceptance testing
             * Technical
               * Technical edge cases
@@ -224,7 +224,7 @@
             * But:
               * Large
               * Available late (system needs to exist)
-              * Data protection problems
+              * Data protection problems (GDPR)
                 * if necessary also with pseudonymized data if free texts allowed
               * Production Like complex in maintenance
           * Other e.g.
@@ -240,7 +240,7 @@
              data-background-opacity="0.1">
       <section data-markdown>
         <script type="text/template">
-          # Evolution
+          ## Evolution
 
           <p class="fragment fade-in">In the beginning was the <em>model</em>...</p>
 
@@ -263,18 +263,18 @@
           * Model is...
             * **simple**
             * **data-centric** from a table module design
-            * has **one** circle reference
+            * has **one** circle reference ... of course
             * it is based on a **real-world** example
               * in reality way more complex
         </script>
       </section>
       <section data-markdown>
         <script type="text/template">
-          ### Per Test Method
+          ## Per Test Method
 
             <pre><code data-line-numbers="|3,21,24|3-19|7,8,22,25|6,15|"
                        data-trim data-noescape
-                       data-url="./src/test/java/io/marmer/github/demo/novatecsummit2023demo/application/CommonGutscheinTypeServiceImplManagerHelperUtilObjectImplTest.java"
+                       data-url="./src/test/java/io/marmer/github/demo/novatecsummit2023demo/application/_1PerMethodTest.java"
                        data-line-start-delimiter="tag::perMethod[]"
                        data-line-end-delimiter="end::perMethod[]"
                        data-no-beautify="true"
@@ -300,11 +300,11 @@
       </section>
       <section data-markdown>
         <script type="text/template">
-          ### lets mock
+          ## lets mock
 
             <pre><code data-line-numbers="|4-6|12"
                        data-trim data-noescape
-                       data-url="./src/test/java/io/marmer/github/demo/novatecsummit2023demo/application/CommonGutscheinTypeServiceImplManagerHelperUtilObjectImplTest.java"
+                       data-url="./src/test/java/io/marmer/github/demo/novatecsummit2023demo/application/_1PerMethodTest.java"
                        data-line-start-delimiter="tag::mocked[]"
                        data-line-end-delimiter="end::mocked[]"
                        data-no-beautify="true"
@@ -316,6 +316,7 @@
             * we only see relevant details
             * have less impact on model changes in tests
             * works for plain logic
+            * less copy paste
           * But...
             * distracting technical noise
             * depend on the mocking library
@@ -327,43 +328,140 @@
       </section>
       <section data-markdown>
         <script type="text/template">
-          ### per file
+          ## per test file
 
           <div class="container">
-            <pre class="col"><code data-line-numbers="|4-6|12"
-                       data-trim data-noescape
-                       data-url="./src/test/java/io/marmer/github/demo/novatecsummit2023demo/application/CommonGutscheinTypeServiceImplManagerHelperUtilObjectImplTest.java"
-                       data-line-start-delimiter="tag::mocked[]"
-                       data-line-end-delimiter="end::mocked[]"
-                       data-no-beautify="true"
-                       class="java"></code>
-            </pre>
-            <pre class="col"><code data-line-numbers="|4-6|12"
-             data-trim data-noescape
-             data-url="./src/test/java/io/marmer/github/demo/novatecsummit2023demo/application/CommonGutscheinTypeServiceImplManagerHelperUtilObjectImplTest.java"
-             data-line-start-delimiter="tag::mocked[]"
-             data-line-end-delimiter="end::mocked[]"
-             data-no-beautify="true"
-             class="java"></code>
-            </pre>
+            <p>
+              <pre>
+                <code data-line-numbers=""
+                      data-trim data-noescape
+                      data-url="./src/test/java/io/marmer/github/demo/novatecsummit2023demo/application/_2PerFileTest.java"
+                      data-line-start-delimiter="tag::perFileInit[]"
+                      data-line-end-delimiter="end::perFileInit[]"
+                      data-no-beautify="true"
+                      class="java"></code>
+              </pre>
+            </p>
+            <p>
+              <pre>
+                <code data-line-numbers="|4-6|12"
+                      data-trim data-noescape
+                      data-url="./src/test/java/io/marmer/github/demo/novatecsummit2023demo/application/_2PerFileTest.java"
+                      data-line-start-delimiter="tag::perFileChange[]"
+                      data-line-end-delimiter="end::perFileChange[]"
+                      data-no-beautify="true"
+                      class="java"></code>
+              </pre>
+            </p>
           </div>
 
           Notes:
-          * looks way more compact, doesn't it?
-          * Now...
-            * we only see relevant details
-            * have less impact on model changes in tests
-            * works for plain logic
+          * Testdata per Test File defined
+          * now
+            * still compact
+            * still only relevant details
+            * works for even with technical contexts
+              * able to persist or pass
+            * have a little less impact on model changes in tests
+              * per test file now
           * But...
-            * distracting technical noise
-            * depend on the mocking library
-            * Not able to persist
-            * even worse
-              * we don't test the "contract"
-                * **See the assertion**
+            * still impact on model changes!
+        </script>
+      </section>
+      <section data-markdown>
+        <script type="text/template">
+          ## global scope
+
+          <img src="./img/42.png" alt="happy42" class="r-stretch"/>
+
+          well... actually... <!-- .element: class="footnote" -->
+
+          Notes:
+          * even more global scope?
+            * Modul, Package, Repository
+          * Solution of everything?
+          * Well, now we are on a good way
+          * Good
+            * Central place
+            * Can have
+              * one single "Test Data Container"
+              * per type
+          * But still...
+            * ... have to maintain each little detail ... globally
+            * ... lots of changes for different scenarios necessary
+              * not sufficient for different scenarios
+        </script>
+      </section>
+      <section data-markdown>
+        <script type="text/template">
+          ## Blueprints
+
+          <div class="container">
+            <p>
+            <pre>
+                <code data-line-numbers="1-2|"
+                      data-trim data-noescape
+                      data-url="./src/test/java/io/marmer/github/demo/novatecsummit2023demo/application/_3StaticTestData.java"
+                      data-line-start-delimiter="tag::default[]"
+                      data-line-end-delimiter="end::default[]"
+                      data-no-beautify="true"
+                      class="java"></code>
+              </pre>
+            </p>
+            <p>
+            <pre>
+                <code data-line-numbers="1-2,6,10|3|7,11,12"
+                      data-trim data-noescape
+                      data-url="./src/test/java/io/marmer/github/demo/novatecsummit2023demo/application/_3StaticTestData.java"
+                      data-line-start-delimiter="tag::custom[]"
+                      data-line-end-delimiter="end::custom[]"
+                      data-no-beautify="true"
+                      class="java"></code>
+              </pre>
+            </p>
+          </div>
+
+          Notes:
+          * Blueprints
+            * Default vs. Custom
+            * Default as known
+            * Custom
+              * can create new values
+              * can reuse methods
+              * can use other generators
+
+          * but
+            * What about collections?
+            * ... any scenarios with multiple objects?
+              * lots of maintainance
+                * even for unimportant fields
+
+        </script>
+      </section>
+
+    </section>
+    <section data-background-image="./img/randomness3.png"
+             data-background-opacity="0.1">
+      <section data-markdown>
+        <script type="text/template">
+          ## Randomness
+
+          <img src="./img/randomness2.png" alt="happy42" class="r-stretch"/>
+
+          I ain't afraid of no ghost <!-- .element: class="footnote" -->
+
+          Notes:
+          * Why are developers scared of random values in Test Data?
+            * Things are not deterministic
+              * Tests might fail
+            * Gibberish in test logs
+            * "It feels strange"
+          * Lets take a look at it
         </script>
       </section>
     </section>
+<!--    todo Actual Data-->
+<!--            * Resets?-->
 
   </div>
 </div>
@@ -397,7 +495,6 @@
     dependencies: [
       {src: "plugin/countdown/countdown.js"},
       {src: "//cdn.jsdelivr.net/npm/reveal-plantuml"},
-      { src: 'plugin/sampler/sampler.js' }
     ]
   });
 </script>
