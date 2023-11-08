@@ -10,9 +10,6 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 @Data
-@Builder
-@NoArgsConstructor
-@AllArgsConstructor
 public class Kommentar {
 
   String kommentar;

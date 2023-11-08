@@ -3,249 +3,66 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-parent</artifactId>
-    <version>3.1.4</version>
-    <relativePath/> <!-- lookup parent from repository -->
-  </parent>
+
   <groupId>io.marmer.github.demo</groupId>
   <artifactId>novatec-summit-2023-demo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Novatec Summit 2023 Demo</name>
   <description>Novatec Summit 2023 Demo</description>
+
   <properties>
-    <project.slides.directory>${project.build.directory}/generated-slides</project.slides.directory>
-    <java.version>17</java.version>
-    <asciidoctor.maven.plugin.version>2.2.4</asciidoctor.maven.plugin.version>
-    <asciidoctorj.version>2.5.10</asciidoctorj.version>
-    <jruby.version>9.4.2.0</jruby.version>
-    <revealjs.version>3.9.2</revealjs.version>
-    <!-- Use 'master' as version and remove the 'v' prefixing the download url to use the current snapshot version  -->
-    <asciidoctor-revealjs.version>master</asciidoctor-revealjs.version>
+    <maven.compiler.release>17</maven.compiler.release>
   </properties>
   <dependencies>
     <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-data-jpa</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-thymeleaf</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-web</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-devtools</artifactId>
-      <scope>runtime</scope>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-docker-compose</artifactId>
-      <scope>runtime</scope>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>com.h2database</groupId>
-      <artifactId>h2</artifactId>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
+      <version>1.18.30</version>
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-test</artifactId>
+      <groupId>org.jeasy</groupId>
+      <artifactId>easy-random-core</artifactId>
+      <version>5.0.0</version>
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-testcontainers</artifactId>
+      <groupId>org.jeasy</groupId>
+      <artifactId>easy-random-randomizers</artifactId>
+      <version>5.0.0</version>
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.testcontainers</groupId>
-      <artifactId>junit-jupiter</artifactId>
+      <groupId>org.instancio</groupId>
+      <artifactId>instancio-junit</artifactId>
+      <version>3.4.2</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.instancio</groupId>
+      <artifactId>instancio-core</artifactId>
+      <version>3.4.2</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>5.7.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-junit-jupiter</artifactId>
+      <version>5.7.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.javafaker</groupId>
+      <artifactId>javafaker</artifactId>
+      <version>1.0.2</version>
     </dependency>
 
-      <!--			Ascidoc related Things-->
-    <dependency>
-      <groupId>rubygems</groupId>
-      <artifactId>asciidoctor-revealjs</artifactId>
-      <version>4.1.0</version>
-      <type>gem</type>
-      <!-- Avoid downloading gems included in AsciidoctorJ -->
-      <exclusions>
-        <exclusion>
-          <groupId>rubygems</groupId>
-          <artifactId>asciidoctor</artifactId>
-        </exclusion>
-        <exclusion>
-          <groupId>rubygems</groupId>
-          <artifactId>thread_safe</artifactId>
-        </exclusion>
-        <exclusion>
-          <groupId>rubygems</groupId>
-          <artifactId>concurrent-ruby</artifactId>
-        </exclusion>
-      </exclusions>
-    </dependency>
+
   </dependencies>
 
-  <build>
-    <extensions>
-      <extension> <!-- this allows us to download gems -->
-        <groupId>org.torquebox.mojo</groupId>
-        <artifactId>mavengem-wagon</artifactId>
-        <version>1.0.3</version>
-      </extension>
-    </extensions>
-
-    <plugins>
-      <plugin>
-        <groupId>org.hibernate.orm.tooling</groupId>
-        <artifactId>hibernate-enhance-maven-plugin</artifactId>
-        <version>${hibernate.version}</version>
-        <executions>
-          <execution>
-            <id>enhance</id>
-            <goals>
-              <goal>enhance</goal>
-            </goals>
-            <configuration>
-              <enableLazyInitialization>true</enableLazyInitialization>
-              <enableDirtyTracking>true</enableDirtyTracking>
-              <enableAssociationManagement>true</enableAssociationManagement>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-      <plugin>
-        <groupId>org.graalvm.buildtools</groupId>
-        <artifactId>native-maven-plugin</artifactId>
-      </plugin>
-      <plugin>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
-        <configuration>
-          <excludes>
-            <exclude>
-              <groupId>org.projectlombok</groupId>
-              <artifactId>lombok</artifactId>
-            </exclude>
-          </excludes>
-        </configuration>
-      </plugin>
-
-
-      <!--			Ascidoc related Things-->
-      <plugin>
-        <groupId>com.googlecode.maven-download-plugin</groupId>
-        <artifactId>download-maven-plugin</artifactId>
-        <version>1.7.1</version>
-        <executions>
-          <execution>
-            <id>install-revealjs</id>
-            <phase>generate-resources</phase>
-            <goals>
-              <goal>wget</goal>
-            </goals>
-            <configuration>
-              <url>https://github.com/hakimel/reveal.js/archive/${revealjs.version}.zip</url>
-              <unpack>true</unpack>
-              <outputFileName>reveal.js-${revealjs.version}.zip</outputFileName>
-              <outputDirectory>${project.slides.directory}</outputDirectory>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-      <plugin>
-        <groupId>de.saumya.mojo</groupId>
-        <artifactId>gem-maven-plugin</artifactId>
-        <version>2.0.1</version>
-        <configuration>
-          <jrubyVersion>${jruby.version}</jrubyVersion>
-          <gemHome>${project.build.directory}/gems</gemHome>
-          <gemPath>${project.build.directory}/gems</gemPath>
-        </configuration>
-        <executions>
-          <!-- Install required gems in target directory -->
-          <execution>
-            <id>install-gems</id>
-            <goals>
-              <goal>initialize</goal>
-            </goals>
-            <phase>initialize</phase>
-          </execution>
-        </executions>
-      </plugin>
-      <plugin>
-        <groupId>org.asciidoctor</groupId>
-        <artifactId>asciidoctor-maven-plugin</artifactId>
-        <version>${asciidoctor.maven.plugin.version}</version>
-        <dependencies>
-          <!-- Comment this section to use the default jruby artifact provided by the plugin -->
-          <dependency>
-            <groupId>org.jruby</groupId>
-            <artifactId>jruby</artifactId>
-            <version>${jruby.version}</version>
-          </dependency>
-          <!-- Comment this section to use the default AsciidoctorJ artifact provided by the plugin -->
-          <dependency>
-            <groupId>org.asciidoctor</groupId>
-            <artifactId>asciidoctorj</artifactId>
-            <version>${asciidoctorj.version}</version>
-          </dependency>
-        </dependencies>
-        <configuration>
-          <sourceDirectory>src/docs</sourceDirectory>
-        </configuration>
-        <executions>
-          <execution>
-            <id>generate-slides</id>
-            <phase>process-resources</phase>
-            <goals>
-<!--              <goal>process-asciidoc</goal>-->
-              <goal>auto-refresh</goal>
-            </goals>
-            <configuration>
-              <!-- include the asciidoctor-revealjs gem -->
-              <gemPath>${project.build.directory}/gems</gemPath>
-              <requires>
-                <require>asciidoctor-revealjs</require>
-              </requires>
-              <outputDirectory>${project.slides.directory}</outputDirectory>
-              <backend>revealjs</backend>
-              <attributes>
-                <!--
-                    As we are downloading reveal.js in runtime, it sits in a nonstandard folder `reveal.js-${revealjs.version}`
-                -->
-                <revealjsdir>reveal.js-${revealjs.version}</revealjsdir>
-                <!-- put here the reveal.js specific attributes -->
-                <sourcedir>${basedir}/src/main/java</sourcedir>
-                <project-version>${project.version}</project-version>
-                <!-- can use any pygments/rouge css here -->
-                <rouge-css>class</rouge-css>
-              </attributes>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
-  </build>
-
-  <repositories>
-    <repository>
-      <id>mavengems</id>
-      <url>mavengem:https://rubygems.org</url>
-    </repository>
-  </repositories>
 </project>

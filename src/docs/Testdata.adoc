@@ -180,8 +180,9 @@ include::{srcdir}/test/java/io/marmer/github/demo/novatecsummit2023demo/applicat
 === Seeded Random Structures Manual
 === Seeded Random Structures With Semantics
 === Bonus Builder Pattern
-=== on DDD Aggregates or Domain Entities
-* Either Iterate through the processes
+=== on DDD Aggregates or Domain Entities (which are not anemic)
+* Either Iterate through the processes ( you have to do it anyway sooner or later)
+* Use Test Builders
 
 [.notes]
 ****

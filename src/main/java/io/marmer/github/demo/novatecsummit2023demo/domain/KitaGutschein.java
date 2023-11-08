@@ -11,10 +11,8 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 @Data
-@Builder
-@NoArgsConstructor
-@AllArgsConstructor
 public class KitaGutschein {
+
   String gutscheinNummer;
   String gutscheinName;
   Betreuungsumfang betreuungsumfang;

@@ -1,8 +1,35 @@
-.reveal {
-  background-image: url('https://www.novatec-gmbh.de/wp-content/uploads/2023/06/logo_colored.svg');
-  background-position: 25px 25px;
-  background-size: 10%;
-  background-repeat: no-repeat;
+/*.reveal {*/
+/*  background-image: url('https://www.novatec-gmbh.de/wp-content/uploads/2023/06/logo_colored.svg');*/
+/*  background-position: 2.5% 25px;*/
+/*  background-size: 10%;*/
+/*  background-repeat: no-repeat;*/
+/*}*/
+
+.top-left {
+  position: absolute;
+  top: 2.5%;
+  left: 1.5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top-left img {
+  width: 75%;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 2.5%;
+  left: 0.75%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  justify-content: center;
+  text-align: center;
+}
+
+.bottom-left img {
+  width: 75%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -21,6 +48,11 @@ h1, h2, h3, h4, h5 {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+}
+
+.footnote:nth-last-of-type(3) {
+  position: fixed;
+  bottom: 5em;
 }
 
 .footnote:nth-last-of-type(2) {
@@ -44,7 +76,7 @@ h1, h2, h3, h4, h5 {
   height: 1%;
 }
 
-img {
+.slides section img {
   background: unset !important;
   filter: drop-shadow(16px 16px 20px grey);
   border: none !important;
@@ -92,10 +124,12 @@ code {
 }
 
 .container {
-  display: flex; justify-content: center; position: relative;
+  display: flex;
+  justify-content: center;
+  position: relative;
 }
 
-.container > *{
+.container > * {
   padding: 5px;
 
 }

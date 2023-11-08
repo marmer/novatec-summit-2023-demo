@@ -9,9 +9,6 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 @Data
-@Builder
-@NoArgsConstructor
-@AllArgsConstructor
 public class Adresse {
   String strasse;
   String hausnummer;
