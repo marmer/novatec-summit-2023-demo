@@ -583,8 +583,6 @@
             * You can create new values straightforward
             * **Maintenance** of the data is very **low**
             * Scenario methods for globally relevant values still possible
-          * Initially **counted** instead of random values (probably separate slide?)
-            * So it **felt more readable** and the result was similar
         </script>
       </section>
       <section data-markdown>
@@ -685,12 +683,12 @@
               * low domain impact
           * Build own pools **only** if necessary!
             * e.g. special values
-            * higher domain impact like for validation
+            * higher domain impact like for
+              * acceptance tests
+              * validation
           * but
             * complex objects still useless
             * every property has to be maintained
-            * what about high domain impact?
-              * e.g. acceptance tests and validation
         </script>
       </section>
       <section data-markdown>
@@ -750,10 +748,10 @@
           * D**T**Os, D**B**Os, ...
 
           Notes:
-          * **(see slide)**
           * configuration
           * Processes
             * you have to do it either way
+          * test-builder or factories
           * I have more answers...
         </script>
       </section>
@@ -781,14 +779,6 @@
       <section data-markdown>
         <script type="text/template">
           ## Value pools
-
-<!--          | **Java/Kotlin** | **TS/JS**        |-->
-<!--          |:-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;:|:&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;:|-->
-<!--          | java-faker      | @faker-js/faker  |-->
-<!--          | faker           | casual           |-->
-<!--          | jfairy*         | jabber           |-->
-<!--          | datafactory     |                  |-->
-<!--          | kotlin-faker    |                  |-->
 
           <div class="container">
             <div>
@@ -940,6 +930,11 @@
           * More or less for well-prepared static data
           * can help to find ORM related Errors
           * But: increases complexity of tests
+        </script>
+      </section>
+      <section data-markdown>
+        <script type="text/template">
+          <img  src="./img/thatsAllFolks.png" alt="thats all folks" class="r-stretch"/>
         </script>
       </section>
     </section>
